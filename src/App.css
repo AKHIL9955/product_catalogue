@@ -22,7 +22,6 @@ body {
   .a {
     display: flex;
     align-items: center;
-    
     justify-content: space-between;
     margin: 0;
     padding: 0;
@@ -38,7 +37,7 @@ body {
   }
   .search {
     .fa {
-      /* cursor: pointer; */
+      cursor: pointer; 
       margin-right: 10px;
       + .fa {
         margin-right: 20px;
