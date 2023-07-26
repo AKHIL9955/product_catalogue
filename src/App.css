@@ -1,0 +1,192 @@
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-family: "verela Round";
+  background-color: rgb(219, 35, 229);
+}
+.na{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  
+  .logo {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 255);
+    margin-left: 50px;
+  }
+  .a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    .b {
+      font-size: 14px;
+      margin-left: 15px;
+      padding: 10px;
+      box-sizing: border-box;
+      /* color: rgba(white, 0.7); */
+       cursor: pointer; 
+    }
+  }
+  .search {
+    .fa {
+      /* cursor: pointer; */
+      margin-right: 10px;
+      + .fa {
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+.main_content{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0px 0 0;
+  box-sizing: border-box;
+  justify-content: space-between;  
+  flex-wrap: wrap;}
+  .row{
+    width: 100%;
+    max-height: 100%;
+    
+  }
+.col{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  position: relative;
+  /* width: 250px; */
+  height: 590px;
+  margin: 30px auto;
+  padding: 0px 0 0;
+  box-sizing: border-box;
+  justify-content: space-between;
+  flex-wrap: wrap;}
+  .c{
+    position:absolute;  
+    left: 100px;
+    top: 300px;
+     color: rgba(17, 207, 68, 0.39); 
+   
+    font-size: 10.5vw;
+  }
+
+  div.card{
+    width: 100%;
+    height: 55px;
+    border-radius: 15px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+  transform:scale(.8);
+  transition: all .3s ease-in-out;
+  margin-bottom: 50px;
+ background-color: rgba(140, 203, 50, 0.625);  
+ /* background: whitesmoke; */
+   .card_img{
+     margin-top: 5px;
+     
+     
+    .d{
+      width:  300px;
+      height: 200px;
+      object-fit: fill;
+      
+      }
+
+  }
+}
+  .ch{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(16, 9, 9);
+  /* margin: 25px 0; */
+  }
+  .ch1{
+    font-size: 22px;
+    display: flex;
+  }
+  .ch2{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(33, 25, 25);
+    margin: 8px 0;
+  }
+  .price{
+    font-size: 20px;
+    color: rgb(11, 25, 211);
+  }
+  
+  .card:hover{
+    background-color: rgba(33, 185, 249, 0.711);
+    transform: scale(.8);
+    .price{
+      color: rgb(213, 6, 151);
+    }  
+    
+    .btn:hover{
+      color: rgb(246, 255, 0);
+      font-size: 25px;
+      background-color: rgb(228, 27, 16);
+    }
+  }
+  .card_img:hover{
+    transform:scale(1.2);
+    transition:transform 0.6s ease-in-out;
+
+  
+  }
+  .btn{
+    font-size: 21px;
+    background-color: rgb(201, 53, 53);
+    color: rgb(196, 223, 20);
+    padding:4px 8px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+.footer{
+  background-color: rgb(164, 200, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: auto;
+  font-size: 15px;
+  
+  
+  }
+  .social{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+    .fa{
+      padding: 5px;
+      border-radius: 15px;
+      border: 2px solid red;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+  
