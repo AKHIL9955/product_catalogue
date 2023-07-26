@@ -20,8 +20,9 @@ body {
     margin-left: 50px;
   }
   .a {
-    display: flex;
+    display: inline-block;
     align-items: center;
+    
     justify-content: space-between;
     margin: 0;
     padding: 0;
