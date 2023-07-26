@@ -6,7 +6,7 @@ body {
   background-color: rgb(219, 35, 229);
 }
 .na{
-/*   display:inline-flex; */
+  display:flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
